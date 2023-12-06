@@ -12,12 +12,16 @@
 	<body>
 
 		<nav>
-			<img id= "logo" src="img/logo.png" alt="logo do menu">
 			<div id="conjuntomenu">
+			<div>
+			<img id= "logo" src="img/logo.png" alt="logo do menu">
+			</div>
+			<div id="menunav">
 			<a class="menu" href="#">INÍCIO<a/> 
 		 	<a class="menu" href="#pag-sobremim">SOBRE MIM<a/> 
 		 	<a class="menu" href="#pag-contatos">CONTATOS<a/> 
 		 	<a class="a-menu" href="#pag-agendarconsulta">AGENDAR CONSULTA<a/>
+		 	</div>
 		 	</div>
 		</nav>
 
@@ -100,15 +104,18 @@
 		</section>
 
 		<section id="secao3">
-			<h1>Você Sabia?</h1>
+			
 			<div id="containersecao3">
 				<div id="imgsecao3">
 					<img class="img3" src="img/img2redimensionada.png" alt="desenho de articulação do joelho com detalhe de músculo da patela">
 				</div>
 				<div id="secao3txtbotao">
+					<h1>Você Sabia?</h1>
 					<p>Segundo dados da Organização Mundial da Saúde, 1% da população mundial é portadora de Artrite Reumatoide, doença articular inflamatória autoimune. Só no Brasil, a Sociedade Brasileira de Reumatologia estima 1,8 milhões de enfermos.</p>
 					<p> A reumatologia é a especialidade médica dedicada ao estudo e tratamento de mais de 100 doenças que afetam o sistema musculoesquelético? Isso inclui desde artrite reumatoide e osteoartrite até doenças autoimunes, como o lúpus, que podem causar dores articulares, inflamações e impactos na qualidade de vida dos pacientes. Os reumatologistas são especialistas treinados para diagnosticar e gerenciar essas condições complexas, utilizando uma variedade de abordagens terapêuticas para aliviar os sintomas e melhorar a qualidade de vida dos pacientes.</p>
-					<input type="submit" name="btn-agendar" value="Agendar Consulta">
+					<div id="menusecao3">
+					<a class="a-menu" href="#pag-agendarconsulta">AGENDAR CONSULTA</a>
+					</div>>
 				</div>
 			</div>
 		</section>
@@ -122,13 +129,13 @@
 			<div id="formulario">
 			<form name="frm-agendar" method="GET" accept="">
 				<label for="nome">Nome:</label>
-				<input type="text" name="nome" id="nome" placeholder="Digite seu nome completo"   />
+				<input type="text" name="nome" id="nome" placeholder=" Digite seu nome completo" />
 		            
 				<label for="email">E-mail:</label>
-				<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+				<input type="email" name="email" id="email" placeholder=" Digite seu e-mail">
 
 				<label for="celular">Celular:</label>
-				<input type="tel" name="celular" id="celular" placeholder="(00)00000-0000" pattern="^\(?\d{2}\)d{5}[-\s]\d{4}.*?$">
+				<input type="tel" name="celular" id="celular" placeholder=" (00)00000-0000" pattern="^\(?\d{2}\)d{5}[-\s]\d{4}.*?$">
 
 				<label for="MSG">Mensagem:</label>
 					<textarea id="MSG" cols="52" rows="7">	
@@ -174,10 +181,14 @@
 				</div>
 				</div>
 				<p>(61) 9 9167-1005</p>
-				
 
 				</div>
 	
+		</section>
+
+		<section id="secao5">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1919.682498813079!2d-47.88621517923961!3d-15.78469671516233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3afe8696746b%3A0x66f5498528da4830!2sCl%C3%ADnica%20Metasense%20-%20Sa%C3%BAde%20e%20Bem-estar!5e0!3m2!1spt-BR!2sbr!4v1701875648238!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			
 		</section>
 
 
