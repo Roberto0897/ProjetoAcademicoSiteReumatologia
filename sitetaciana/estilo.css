@@ -215,7 +215,7 @@ li{
 #secao3{
 	background-color: #FFEDD2;
 	text-align: center;
-	padding-bottom: 150px;
+	padding-bottom: 30px;
 }
 
 #containersecao3{
@@ -257,13 +257,14 @@ li{
 	padding-left: 300px; 
 	color: #5C5B5B;
 	text-align: justify;
-	margin-bottom: 30px; 
+	margin-bottom: 10px; 
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
 
 #menusecao3{
 	position: relative;
+	padding-top: 20px;
 	right: 380px;
 }
 
@@ -353,4 +354,17 @@ input[type="submit"]{
 	border-radius: 5px;
 	font-family: 'Roboto';
 	color: #fff;
+}
+
+#bt-topo{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+
+}
+
+#WhatsVerde{
+	width: 70px;
 }
