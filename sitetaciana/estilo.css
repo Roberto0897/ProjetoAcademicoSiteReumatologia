@@ -375,7 +375,6 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	height: 30vh;
-	margin-bottom: vh;
 	background-color: #FFF8ED;
 
 }
@@ -435,23 +434,81 @@ footer{
 }
 
 
-
-
-
-
-
-
 /*responsividade (iphone 12 pro)*/
 
 @media screen and (max-width: 390px){
+*{margin:0;padding:0;}
+
 nav,article, header{
 		width: 100%;
 }	
-nav {
-	height: 60px;
+
+nav{
+	background-color: #FFF8ED;
+	box-sizing: border-box;
+	height: 55px;
+	justify-content: space-between;
+	position: sticky;
+ 	top: 0px;
+ 	z-index: 1;
+}
+
+#conjuntomenu{
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+
+#menunav{
+	text-align: right;
+	margin-left: 10px;
+	padding-bottom: 50px;
+}
+
+.a-menu{
+	background-color: #B45C13;
+	padding: 7px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{
+	color: #FFF;
+}
+.a-menu:hover, .a-menu:active{
+	color: #FFF8ED;
+}
+
+.menu{
+	margin-right: 25px;
+	font-weight: bold;
+}
+
+.menu:link, .menu:visited{
+	color: #000;
+}
+.menu:hover, .menu:active{
+	color: #B45C13;
+}
+
+#logo{
+	width: 130px;
+	height: 80px;
+}
+
+a{
+	font-size: 0.5rem;
 }
 
 p{
+	font-size: 1.1rem;
+}
+
+h1{
+	padding: 0px;
+	margin: 0px;
+	font-size: 2.5rem;
+	text-align: center;
 	padding: 0px;
 }
 
@@ -471,60 +528,65 @@ p{
 	height: 180px;
 }
 
-.texto p{
-	text-align: justify;
-	box-sizing: border-box;
-	padding-left: 40px;
-	padding-right: 20px;
-	position: relative;
-	right: 250px;
-	bottom: 350px;
-	width: 150%;
-	font-size: 1.2rem;
-
-
-}
-
 article{
 	margin: 0px;
 	padding: 5px;
 	width: 100%;
+	display: block;
 }
 
+.texto p{
+	box-sizing: border-box;
+	width: 500px;
+	padding-left: 20px;
+	padding-right: 155px;
+	position: relative;
+	text-align: justify;
+	bottom: 300px;
+	right: 240px;
+	
+}
 .texto h1{
-	text-align: center;
-	padding-top: 0px;
-	font-size: 2.5rem;
-	margin-left: 60px;	
+	position: relative;
+	right: 80vw;
+	bottom: 35vh;
 }
 
 #perfil{
 	width: 220px;
 	height: 320px;
-	margin-top: 950px;
+	margin-top: 550px;
 	position: relative;
 	left: 65px;
 }
 
 #secao1{
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
 }
 
-.textosecao1 p{
-	text-align: justify;
-	width: 100%;
-	padding: 0px;
-	margin: 0px;
+#secao1 p{
+	padding-right: 0px;
+	width: 90vw;
 }
 
+ul{
+	padding: 5vh;
+	list-style-type: circle;
+}
+
+li{
+	font-family: 'Roboto',sans-serif;
+	padding-left: 1vw;
+	margin-bottom: 3vh;
+	font-size: 1.1rem;
+	text-align: left;
+}
 #img1{
-	margin-top: 1200px; 
+	margin-top: 750px; 
 	width: 250px;
 	height: 250px;
 	position: relative;
-	right: 370px;
+	right: 305px;
 	margin-bottom: 100px;
 }
 
