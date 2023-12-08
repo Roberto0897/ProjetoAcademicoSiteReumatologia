@@ -9,7 +9,9 @@ nav{
 	box-sizing: border-box;
 	height: 80px;
 	justify-content: space-between;
-
+	position: sticky;
+ 	top: 0px;
+ 	z-index: 1;
 }
 
 #conjuntomenu{
@@ -98,8 +100,8 @@ article {
 }
 
 #perfil{
-	width: 410px;
-	height: 580px;
+	width: 380px;
+	height: 540px;
 	padding: 15px;
 }
 
@@ -153,28 +155,28 @@ li{
 }
 
 .imgsecao2{
-	width: 450px;
+	width: 380px;
 	height: 250px;
 	background-color: #DDD;
 	border-radius: 40px 0 0 40px;
 }
 
 .txtsecao2{
-	width: 450px;
+	width: 400px;
 	height: 250px;
 	background-color: #E1B97D;
 	border-radius: 0px 40px 40px 0px;
 }
 
 .imgsecao2inverso{
-	width: 450px;
+	width: 400px;
 	height: 250px;
 	background-color: #DDD;
 	border-radius: 0px 40px 40px 0px;
 }
 
 .txtsecao2inverso{
-	width: 450px;
+	width: 400px;
 	height: 250px;
 	background-color: #E1B97D;
 	border-radius: 40px 0px 0px 40px;
@@ -215,7 +217,7 @@ li{
 #secao3{
 	background-color: #FFEDD2;
 	text-align: center;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 
 #containersecao3{
@@ -230,10 +232,10 @@ li{
 }
 
 .img3{
-	width: 80%;
-	height: 500px;	
+	width: 89%;
+	height: 520px;	
 	position: relative;
-	top: 80px;
+	top: 90px;
 	left: 60px;
 	padding-right: 50px;
 
@@ -368,3 +370,167 @@ input[type="submit"]{
 #WhatsVerde{
 	width: 70px;
 }
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	height: 30vh;
+	margin-bottom: vh;
+	background-color: #FFF8ED;
+
+}
+
+
+#footerLogo{
+	height: 100%;
+}
+
+#footerLogo img{
+	margin-top: 40px;
+	height: 70%;
+}
+
+#contatoFooter{
+	height: 50%;
+
+}
+
+#contatoFooter img{
+	height: 65%;
+}
+
+#footerIcones{
+	align-items: flex-end;
+	display: flex;
+	
+}
+
+#footerIcones a{
+	margin-right: 5px;
+	height: 60%;
+}
+
+#footerIcones img{
+	margin-top: 60px;
+	height: 20%;
+}
+
+.footerTelEnd{
+	display: flex;
+	height: 33.3%;
+	align-items: center;
+}
+
+.footerTelEnd p{
+	font-size: 1rem;
+}
+
+#bt-topo{
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 40px;
+	right: 30px;
+
+}
+
+
+
+
+
+
+
+
+/*responsividade (iphone 12 pro)*/
+
+@media screen and (max-width: 390px){
+nav,article, header{
+		width: 100%;
+}	
+nav {
+	height: 60px;
+}
+
+p{
+	padding: 0px;
+}
+
+#logo{
+	width: 70px;
+	height: 50px;
+	margin-bottom: 50px;
+}
+
+#conjuntomenu{
+	justify-content: space-between;
+	display: flex;
+}
+
+
+#banner{
+	height: 180px;
+}
+
+.texto p{
+	text-align: justify;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 20px;
+	position: relative;
+	right: 250px;
+	bottom: 350px;
+	width: 150%;
+	font-size: 1.2rem;
+
+
+}
+
+article{
+	margin: 0px;
+	padding: 5px;
+	width: 100%;
+}
+
+.texto h1{
+	text-align: center;
+	padding-top: 0px;
+	font-size: 2.5rem;
+	margin-left: 60px;	
+}
+
+#perfil{
+	width: 220px;
+	height: 320px;
+	margin-top: 950px;
+	position: relative;
+	left: 65px;
+}
+
+#secao1{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.textosecao1 p{
+	text-align: justify;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#img1{
+	margin-top: 1200px; 
+	width: 250px;
+	height: 250px;
+	position: relative;
+	right: 370px;
+	margin-bottom: 100px;
+}
+
+#secao1 h1{
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+}	
